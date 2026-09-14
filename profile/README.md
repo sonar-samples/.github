@@ -1,31 +1,24 @@
-# sonar-samples
+# Sonar samples
 
-This org contains runnable samples, workshop repos, and blueprint companion code maintained by the Sonar team. Repositories can opt in to [SonarQube Cloud](https://www.sonarsource.com/products/sonarqube/cloud/) analysis after they have been onboarded and configured.
+Practical code and step-by-step guides for using Sonar products in real developer workflows.
 
-## Repos by content type
+## Start here
 
-### Workshops and tutorials (`learn-`)
+[Wire Codex CLI to SonarQube Cloud](https://github.com/sonar-samples/learn-codex-workshop) in a hands-on workshop that covers project setup, secrets detection, issue investigation, and verification of AI-generated code.
 
-| Repo | Description |
-|------|-------------|
-| [learn-codex-workshop](https://github.com/sonar-samples/learn-codex-workshop) | Wire Codex CLI to SonarQube Cloud: secrets scanning, SQL injection detection, agentic analysis |
+## What you will find
 
-## Naming convention
+- **Implementation blueprints** that show how Sonar products fit into specific tools and development workflows.
+- **Hands-on workshops** that take you from setup to observed results.
+- **Runnable samples** that support the guides with focused code and configuration.
 
-Repo names follow the pattern `{prefix}{feature}-{context}`, all kebab-case:
+Each repository states its prerequisites and demonstrated environment. Product behavior, availability, and plan requirements can change, so check the linked product documentation before applying an example to a live environment.
 
-| Prefix | Use for | Example |
-|--------|---------|---------|
-| `sample-` | Runnable apps, infra templates, CI configs | `sample-vulnerable-java` |
-| `blueprint-` | Companion repos to blueprint articles | `blueprint-quality-gate-github-actions` |
-| `learn-` | Workshops and tutorials | `learn-codex-workshop` |
+## Explore Sonar
 
-## Topics
+- [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+- [Sonar documentation](https://docs.sonarsource.com/)
+- [Sonar Learn](https://www.sonarsource.com/learn/)
+- [Sonar Community](https://community.sonarsource.com/)
 
-Every repo carries at least three [GitHub topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics):
-
-- **Product** — `sonarqube-cloud`, `sonarqube-server`, or `sonarqube-for-ide`
-- **Language** — `java`, `python`, `javascript`, `typescript`, etc.
-- **Integration or content type** — `github-actions`, `jenkins`, `azure-devops`, `blueprint`, `workshop`, `sample`, or `ci-template`
-
-Optional cross-cutting topics: `agentic`, `mcp`, `remediation-agent`.
+For a problem with an example, open an issue in that repository. For product questions and support, use [Sonar Community](https://community.sonarsource.com/).
