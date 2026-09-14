@@ -4,7 +4,7 @@ Use practical examples and step-by-step guides to integrate Sonar into developer
 
 ## Explore content
 
-Explore implementation blueprints, hands-on workshops, and runnable examples for using Sonar products in real development environments.
+Implementation blueprints, hands-on workshops, and runnable examples for using Sonar products.
 
 ## About these repositories
 
