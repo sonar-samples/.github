@@ -1,6 +1,20 @@
-# Sonar samples
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/sonar-logo-dark.svg">
+    <img src="img/sonar-logo.svg" alt="Sonar" width="220">
+  </picture>
 
-Practical examples and step-by-step guides for integrating [Sonar](https://www.sonarsource.com/) into developer workflows.
+  <p><strong>Practical examples and step-by-step guides for integrating Sonar into developer workflows</strong></p>
+
+  <p>
+    <a href="https://www.sonarsource.com/">Website</a> ·
+    <a href="https://docs.sonarsource.com/">Docs</a> ·
+    <a href="https://community.sonarsource.com/">Community</a> ·
+    <a href="https://x.com/SonarSource">@SonarSource</a>
+  </p>
+</div>
+
+<br>
 
 Choose what you want to do, then open the repository that matches your tool or environment. Each guide repository includes the complete steps and supporting files.
 
