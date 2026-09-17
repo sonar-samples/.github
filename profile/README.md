@@ -16,6 +16,8 @@
 
 <br>
 
+The repositories linked from this page are example implementations, not supported Sonar products. They exist to help you learn and adapt Sonar for your own workflows. Test, secure, and validate anything you use here against your team’s standards before it touches production.
+
 Choose what you want to do, then open the repository that matches your tool or environment. Each guide repository includes the complete steps and supporting files.
 
 **I want to:**
