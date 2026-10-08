@@ -4,7 +4,7 @@
     <img src="img/sonar-logo.svg" alt="Sonar" width="220">
   </picture>
 
-  <p><strong>Practical examples and step-by-step guides for integrating Sonar into developer workflows</strong></p>
+  <p><strong>Practical examples and step-by-step guides for integrating Sonar into agentic developer workflows</strong></p>
 
   <p>
     <a href="https://www.sonarsource.com/">Website</a> ·
@@ -15,6 +15,8 @@
 </div>
 
 <br>
+
+AI agents write code faster than most teams can review it. That gap is verification debt, and it grows every time a pull request merges before anyone has actually checked what changed. [Sonar](https://www.sonar.com/) calls the discipline of closing that gap the [Agent Centric Development Cycle](https://sonarsource.com/acdc), or AC/DC: guide agents with the right context, verify what they produce, and solve the issues verification finds. The repositories in this org are hands-on guides for each stage of that cycle.
 
 The repositories linked from this page are example implementations, not supported Sonar products. They exist to help you learn and adapt Sonar for your own workflows. Test, secure, and validate anything you use here against your team’s standards before it touches production.
 
