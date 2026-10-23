@@ -4,7 +4,7 @@
     <img src="img/sonar-logo.svg" alt="Sonar" width="220">
   </picture>
 
-  <p><strong>Practical examples and step-by-step guides for integrating Sonar into agentic developer workflows</strong></p>
+  <p><strong>Practical examples and guides for adding code verification and goverannce into agentic developer workflows with Sonar </strong></p>
 
   <p>
     <a href="https://www.sonarsource.com/">Website</a> ·
@@ -25,7 +25,7 @@ Choose what you want to do, then open the repository that matches your tool or e
 **I want to:**
 
 - [Work with AI coding agents](#work-with-ai-coding-agents)
-- [Improve pull request reviews with Gitar](#improve-pull-request-reviews-with-gitar)
+- [Review, fix, and ship pull requests with Gitar](#improve-pull-request-reviews-with-gitar)
 - [Manage application architecture](#manage-application-architecture)
 - [Browse every workshop, blueprint, and sample](#browse-by-content-type)
 
@@ -35,16 +35,17 @@ Choose what you want to do, then open the repository that matches your tool or e
 
 | If you use | Start here | What you will set up |
 |---|---|---|
-| Claude Code | [Set up Sonar Vortex in Claude Code](https://github.com/sonar-samples/blueprint-sonar-vortex-claude) | Project guidance, automatic analysis after edits, multi-file analysis, and secrets detection |
+| Claude Code | [Set up Sonar Vortex in Claude Code](https://github.com/sonar-samples/blueprint-sonar-vortex-claude) | Guide the agent with project context and rules, then verify each code change as it is written. Includes automatic analysis after edits, multi-file analysis, and secrets detection |
 | OpenAI Codex | [Wire your team for agentic development with SonarQube and OpenAI Codex](https://github.com/sonar-samples/learn-codex-workshop) | A hands-on SonarQube Cloud workflow for finding secrets, investigating issues, and verifying AI-generated code |
 | Cursor | [Set up the SonarQube plugin for Cursor](https://github.com/sonar-samples/blueprint-sonarqube-plugin-cursor) | The SonarQube plugin, SonarQube MCP Server, analysis hooks, secrets detection, and project context |
 | A terminal or multiple coding agents | [Get started with the SonarQube CLI](https://github.com/sonar-samples/blueprint-sonarqube-cli) | Local analysis, agent integrations, Git hooks, project queries, and SonarQube authentication |
 
-### Improve pull request reviews with Gitar
+### Review, fix, and ship pull request reviews with Gitar
+Gitar is Sonar's AI code verification agent for pull requests and CI. It reviews changes in context, diagnoses CI failures, and generates fixes, then iterates until your CI passes. Committing, approving, and merging are configurable and stay under your team's controls. Gitar works alongside SonarQube: SonarQube sets the standard, and Gitar enforces it at merge speed.
 
 | If you want to | Start here |
 |---|---|
-| Learn the full review workflow in a browser | [Gitar workshop](https://github.com/sonar-samples/gitar-workshop) |
+| Learn the full review fix workflow in a browser | [Gitar workshop](https://github.com/sonar-samples/gitar-workshop) |
 | Make reviews aware of repository conventions and rules | [Configure Gitar context for project-aware code reviews](https://github.com/sonar-samples/blueprint-gitar-context-ingestion) |
 | Add organization instructions, Jira, Slack, or custom context | [Extend Gitar with organization and external context](https://github.com/sonar-samples/blueprint-gitar-advanced-config) |
 | Run the application used in the Gitar context blueprints | [Gitar context ingestion sample](https://github.com/sonar-samples/sample-gitar-context-ingestion) |
