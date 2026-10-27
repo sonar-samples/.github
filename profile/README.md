@@ -4,7 +4,7 @@
     <img src="img/sonar-logo.svg" alt="Sonar" width="220">
   </picture>
 
-  <p><strong>Practical examples and guides for adding code verification and goverannce into agentic developer workflows with Sonar </strong></p>
+  <p><strong>Practical examples and guides for adding code verification and governance into agentic developer workflows with Sonar </strong></p>
 
   <p>
     <a href="https://www.sonar.com/">Website</a> ·
